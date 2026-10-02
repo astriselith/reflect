@@ -1,0 +1,40 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Reflection plugin output
+__reflect.mk
+Makefile.reflect.mk
+Makefile.reflect.mk.tmp
+__*.cpp
+__*.hpp
+__*.mk
+
+# Reflection plugin lock/temp files
+*.reflect.lock
+*.reflect.tmp
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+compile_commands.json
+
+# Compiler / toolchain
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# OS
+.DS_Store
+Thumbs.db
